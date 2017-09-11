@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+   
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+         android:text="@string/setting_video_1"
+        android:textColor="@color/black_a"
+        android:background="@drawable/btn_bottom_selector"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <TextView
+        android:id="@+id/dialog_cif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:text="@string/setting_video_2"
+        android:textColor="@color/black_a"
+        android:background="@drawable/btn_bottom_selector"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <TextView
+        android:id="@+id/dialog_vga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+         android:text="@string/setting_video_3"
+        android:textColor="@color/black_a"
+        android:background="@drawable/btn_bottom_selector"
+        android:textSize="18sp" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <TextView
+        android:id="@+id/dialog_720p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+       android:text="@string/setting_video_4"
+        android:textColor="@color/black_a"
+        android:background="@drawable/btn_bottom_selector"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/gray_line2" />
+
+     <TextView
+        android:id="@+id/dialog_qx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:text="@string/setting_video_5"
+        android:textColor="@color/black_a"
+        android:background="@drawable/btn_bottom_selector"
+        android:textSize="18sp" />
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/white" />
+
+</LinearLayout>
+</RelativeLayout>

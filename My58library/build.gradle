@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '25.0.3'
+    // useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+//        multiDexEnabled true   重复包使用
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile project(':ManisXmpplibrary')
+    compile project(':WebRtc58Library')
+    compile files('libs/fastjson-1.2.2.jar')
+    compile files('libs/nohttp1.0.4.jar')
+}

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoqiang.online.activitys.main.AddBookingActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/cloud_back2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </FrameLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_head"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include"
+        android:layout_margin="20dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/common_backgourd"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            >
+
+            <RelativeLayout
+                style="@style/setting_command_layout"
+                >
+
+                <TextView
+                    android:id="@+id/text_View01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="会议主题"
+                    android:textColor="@color/tab_bottom_font3"
+                    android:textSize="@dimen/common_smail_size"
+                    />
+
+                <EditText
+                    android:id="@+id/meeting_theme"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/text_View01"
+                    android:layout_alignBottom="@+id/text_View01"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bei_serch"
+                    android:hint="您的会议"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/fengexian_main3"
+                />
+
+            <RelativeLayout
+                style="@style/setting_command_layout"
+                >
+
+                <TextView
+                    android:id="@+id/text_View02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="开始时间"
+                    android:textColor="@color/tab_bottom_font3"
+                    android:textSize="@dimen/common_smail_size"
+                    />
+
+                <EditText
+                    android:id="@+id/start_time"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/text_View02"
+                    android:layout_alignBottom="@+id/text_View02"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bei_serch"
+                    android:hint="2017-6-12 10：41"
+                    android:inputType="none"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/fengexian_main3"
+                />
+
+            <RelativeLayout
+                style="@style/setting_command_layout"
+                >
+
+                <TextView
+                    android:id="@+id/text_View03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="参会时长"
+                    android:textColor="@color/tab_bottom_font3"
+                    android:textSize="@dimen/common_smail_size"
+                    />
+
+                <EditText
+                    android:id="@+id/join_time"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/text_View03"
+                    android:layout_alignBottom="@+id/text_View03"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bei_serch"
+                    android:hint="0小时 0分"
+                    android:inputType="none"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/fengexian_main3"
+                />
+
+            <RelativeLayout
+                style="@style/setting_command_layout">
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="会议类型"
+                    android:textColor="@color/tab_bottom_font3"
+                    android:textSize="@dimen/common_smail_size"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView4"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/button_one"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/selector_check_meeting"
+                        android:button="@null"
+                        android:checked="true"
+                        android:text="一次性会议"
+                        android:textColor="@color/white"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/button_rey"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/selector_check_meeting"
+                        android:button="@null"
+                        android:text="周期性会议"
+                        android:textColor="@color/white"
+                        />
+                </RadioGroup>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/fengexian_main3"
+                />
+
+            <LinearLayout
+                android:id="@+id/linear_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+
+                <RelativeLayout
+                    style="@style/setting_command_layout"
+                    >
+
+                    <TextView
+                        android:id="@+id/cycle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="周期"
+                        android:textColor="@color/tab_bottom_font3"
+                        android:textSize="@dimen/common_smail_size"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/day"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/selector_check_meeting"
+                            android:button="@null"
+                            android:checked="true"
+                            android:text="日"
+                            android:textColor="@color/white"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/week"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/selector_check_meeting"
+                            android:button="@null"
+                            android:text="周"
+                            android:textColor="@color/white"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/selector_check_meeting"
+                            android:button="@null"
+                            android:text="月"
+                            android:textColor="@color/white"
+                            />
+                    </RadioGroup>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    style="@style/setting_command_layout"
+                    >
+
+                    <TextView
+                        android:id="@+id/text_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="100dp"
+                        android:background="@drawable/bei_serch"
+                        android:text="星期一"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/bei_serch"
+                        android:text="0 时"
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_minutes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bei_serch"
+                        android:text="0 分"
+                        android:textColor="@color/black"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    style="@style/setting_command_layout"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="有效期"
+                        android:textColor="@color/tab_bottom_font3"
+                        android:textSize="@dimen/common_smail_size"
+                        />
+
+                    <EditText
+                        android:id="@+id/end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/bei_serch"
+                        android:hint="2017-6-12"
+                        android:inputType="none"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/fengexian_main3"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/setting_command_layout">
+
+                <TextView
+                    android:id="@+id/text_View06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="会议密码"
+                    android:textColor="@color/tab_bottom_font3"
+                    android:textSize="@dimen/common_smail_size"
+                    />
+
+                <EditText
+                    android:id="@+id/meeting_password"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/text_View06"
+                    android:layout_alignBottom="@+id/text_View06"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bei_serch"
+                    android:hint="@string/hit_text"
+                    android:inputType="number"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/fengexian_main3"
+                />
+
+            <RelativeLayout
+                style="@style/setting_command_layout">
+
+                <TextView
+                    android:id="@+id/text_View07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="主持人密码"
+                    android:textColor="@color/tab_bottom_font3"
+                    android:textSize="@dimen/common_smail_size"
+                    />
+
+                <EditText
+                    android:id="@+id/master_password"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/text_View07"
+                    android:layout_alignBottom="@+id/text_View07"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bei_serch"
+                    android:hint="@string/hit_text"
+                    android:inputType="number"
+
+                    />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/fengexian_main3"
+                />
+
+            <Button
+                android:id="@+id/save_info"
+                android:layout_width="@dimen/button_wid"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/selector_button"
+                android:text="@string/save_meeting"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

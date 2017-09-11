@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.xiaoqiang.online"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"
+        />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="ACCESS_CHECKIN_PROPERTIES"/>
+    <uses-permission android:name="ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="ACCESS_SURFACE_FLINGER"/>
+    <uses-permission android:name="ADD_SYSTEM_SERVICE"/>
+    <uses-permission android:name="BATTERY_STATS"/>
+    <uses-permission android:name="BLUETOOTH"/>
+    <!-- 选择wifi -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <!-- 分享 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name="com.xiaoqiang.online.MyAppAplication"
+        android:allowBackup="true"
+        android:anyDensity="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar"
+        >
+        <activity
+            android:name="com.xiaoqiang.online.activitys.welcome.WelcomeActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.welcome.GuideActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+        <activity android:name="com.xiaoqiang.online.activitys.main.settings.SettingUrlActivity">
+        </activity>
+        <!--android:theme="@style/Theme.AppStartLoadTranslucent"-->
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.login.LoginActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/Theme.AppStartLoadTranslucent"
+            android:windowSoftInputMode="adjustResize"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.login.GuestLoginActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/Theme.AppStartLoadTranslucent"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/Theme.AppStartLoadTranslucent"
+            android:windowSoftInputMode="adjustPan"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.settings.SettingActivity"
+            android:screenOrientation="sensorPortrait"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.AddBookingActivity"
+            android:screenOrientation="sensorPortrait"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.AddContactActivity"
+            android:screenOrientation="sensorPortrait"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.JoinMeetingActivity"
+            android:screenOrientation="sensorPortrait"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.settings.BigPhotoActivity"
+            android:screenOrientation="sensorPortrait"
+            >
+        </activity>
+        <activity
+            android:name="com.xiaoqiang.online.activitys.main.MeetingActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+
+        <receiver
+            android:name="com.xiaoqiang.online.BroadcastReceivers.GetBroadcast"
+            android:enabled="false"
+            android:exported="false"
+            >
+        </receiver>
+
+
+        <!-- ShareSDK的activity -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            >
+            <intent-filter>
+                <data android:scheme="tencent100371282"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 填写您从Mob开发者后台中得到的Appkey和AppSecret -->
+        <meta-data
+            android:name="Mob-AppKey"
+            android:value="1f5eb73bc3641"
+            />
+        <meta-data
+            android:name="Mob-AppSecret"
+            android:value="fca2bad93ebd17799e57baa3c2e52c41"
+            />
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="cn.sharesdk.demo.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            >
+        </activity>
+
+    </application>
+
+</manifest>

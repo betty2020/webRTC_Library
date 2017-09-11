@@ -1,0 +1,222 @@
+<resources/>
+    <!--&lt;!&ndash;source add1&ndash;&gt;-->
+    <!--<iq from="101100003@conference.192.168.3.240/focus" id="TahJ4-1688" to="f1b57f64df5cfdcd@192.168.3.240/android446" type="set">-->
+    <!--<jingle action='source-add' sid='5bleqpjnj9il' xmlns='urn:xmpp:jingle:1'>-->
+    <!--<content name='data'>-->
+    <!--<description media='data' xmlns='urn:xmpp:jingle:apps:rtp:1' />-->
+    <!--</content>-->
+    <!--<content name='audio'>-->
+    <!--<description media='audio' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='2025499952' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='qCkfK/rLRQA3fd4C' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='3a281ab0-1d41-40a7-991d-6e104efc8ff6 f6952ebd-6a5b-4cbb-bf69-1f3c4336e8c3' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='3a281ab0-1d41-40a7-991d-6e104efc8ff6' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='f6952ebd-6a5b-4cbb-bf69-1f3c4336e8c3' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--<content name='video'>-->
+    <!--<description media='video' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='3133445213' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='qCkfK/rLRQA3fd4C' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='27459325-051e-40dd-b325-fa5c3a938776 757c8a7c-d40b-46fd-854b-81fbe2f9acbe' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='27459325-051e-40dd-b325-fa5c3a938776' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='757c8a7c-d40b-46fd-854b-81fbe2f9acbe' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--</jingle>-->
+    <!--</iq>-->
+
+    <!--&lt;!&ndash;屏幕流&ndash;&gt;-->
+    <!--<iq from="101100003@conference.192.168.3.240/focus" id="TahJ4-1767" to="f1b57f64df5cfdcd@192.168.3.240/android446" type="set">-->
+    <!--<jingle action='source-add' sid='5bleqpjnj9il' xmlns='urn:xmpp:jingle:1'>-->
+    <!--<content name='video'>-->
+    <!--<description media='video' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='1957048486' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='qCkfK/rLRQA3fd4C' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='6xRbblOE3niroyPmGZbndYXv4hXGv3zmVg1h 89a9502d-6ed2-4cfc-973a-fb84619bc242' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='6xRbblOE3niroyPmGZbndYXv4hXGv3zmVg1h' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='89a9502d-6ed2-4cfc-973a-fb84619bc242' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--</jingle>-->
+    <!--</iq>-->
+
+    <!--&lt;!&ndash;共享屏幕結束&ndash;&gt;-->
+    <!--<iq from="101100003@conference.192.168.3.240/focus" id="TahJ4-1769" to="f1b57f64df5cfdcd@192.168.3.240/android446" type="set">-->
+    <!--<jingle action='source-remove' sid='5bleqpjnj9il' xmlns='urn:xmpp:jingle:1'>-->
+    <!--<content name='video'>-->
+    <!--<description media='video' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='1957048486' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='qCkfK/rLRQA3fd4C' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='6xRbblOE3niroyPmGZbndYXv4hXGv3zmVg1h 89a9502d-6ed2-4cfc-973a-fb84619bc242' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='6xRbblOE3niroyPmGZbndYXv4hXGv3zmVg1h' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='89a9502d-6ed2-4cfc-973a-fb84619bc242' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--</jingle>-->
+    <!--</iq>-->
+
+    <!--&lt;!&ndash;第三人&ndash;&gt;-->
+
+    <!--<iq from="101100003@conference.192.168.3.240/focus" id="TahJ4-1787" to="f1b57f64df5cfdcd@192.168.3.240/android446" type="set">-->
+    <!--<jingle action='source-add' sid='5bleqpjnj9il' xmlns='urn:xmpp:jingle:1'>-->
+    <!--<content name='data'>-->
+    <!--<description media='data' xmlns='urn:xmpp:jingle:apps:rtp:1' />-->
+    <!--</content>-->
+    <!--<content name='audio'>-->
+    <!--<description media='audio' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='1290967246' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='JqnqfSnQjKOfUdJv' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='b59a6a81-7eab-4407-94cb-d8ff3c8b9ac6 7f1ee7ff-aa37-4433-b9cc-59a0a15b027f' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='b59a6a81-7eab-4407-94cb-d8ff3c8b9ac6' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='7f1ee7ff-aa37-4433-b9cc-59a0a15b027f' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--<content name='video'>-->
+    <!--<description media='video' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='1188154278' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='JqnqfSnQjKOfUdJv' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='DeGd5MwopfUq6SNTGQsGCCJlDMlZegzIv44p 3ab9b2d9-6ed4-4204-884f-c12e8889eaa0' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='DeGd5MwopfUq6SNTGQsGCCJlDMlZegzIv44p' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='3ab9b2d9-6ed4-4204-884f-c12e8889eaa0' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--</jingle>-->
+    <!--</iq>-->
+    <!--&lt;!&ndash;第三人移除&ndash;&gt;-->
+    <!--<iq from="101100003@conference.192.168.3.240/focus" id="TahJ4-1793" to="f1b57f64df5cfdcd@192.168.3.240/android446" type="set">-->
+    <!--<jingle action='source-remove' sid='5bleqpjnj9il' xmlns='urn:xmpp:jingle:1'>-->
+    <!--<content name='data'>-->
+    <!--<description media='data' xmlns='urn:xmpp:jingle:apps:rtp:1' />-->
+    <!--</content>-->
+    <!--<content name='audio'>-->
+    <!--<description media='audio' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='1290967246' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='JqnqfSnQjKOfUdJv' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='b59a6a81-7eab-4407-94cb-d8ff3c8b9ac6 7f1ee7ff-aa37-4433-b9cc-59a0a15b027f' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='b59a6a81-7eab-4407-94cb-d8ff3c8b9ac6' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='7f1ee7ff-aa37-4433-b9cc-59a0a15b027f' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--<content name='video'>-->
+    <!--<description media='video' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='1188154278' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='JqnqfSnQjKOfUdJv' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='DeGd5MwopfUq6SNTGQsGCCJlDMlZegzIv44p 3ab9b2d9-6ed4-4204-884f-c12e8889eaa0' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='DeGd5MwopfUq6SNTGQsGCCJlDMlZegzIv44p' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='3ab9b2d9-6ed4-4204-884f-c12e8889eaa0' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--</jingle>-->
+    <!--</iq>-->
+
+
+    <!--&lt;!&ndash;主持人退出&ndash;&gt;-->
+    <!--<iq from="101100003@conference.192.168.3.240/focus" id="TahJ4-1798" to="f1b57f64df5cfdcd@192.168.3.240/android446" type="set">-->
+    <!--<jingle action='source-remove' sid='5bleqpjnj9il' xmlns='urn:xmpp:jingle:1'>-->
+    <!--<content name='data'>-->
+    <!--<description media='data' xmlns='urn:xmpp:jingle:apps:rtp:1' />-->
+    <!--</content>-->
+    <!--<content name='audio'>-->
+    <!--<description media='audio' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='2025499952' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='qCkfK/rLRQA3fd4C' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='3a281ab0-1d41-40a7-991d-6e104efc8ff6 f6952ebd-6a5b-4cbb-bf69-1f3c4336e8c3' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='3a281ab0-1d41-40a7-991d-6e104efc8ff6' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='f6952ebd-6a5b-4cbb-bf69-1f3c4336e8c3' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--<content name='video'>-->
+    <!--<description media='video' xmlns='urn:xmpp:jingle:apps:rtp:1'>-->
+    <!--<source ssrc='3133445213' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>-->
+    <!--<parameter name='cname' value='qCkfK/rLRQA3fd4C' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='msid' value='27459325-051e-40dd-b325-fa5c3a938776 757c8a7c-d40b-46fd-854b-81fbe2f9acbe' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='mslabel' value='27459325-051e-40dd-b325-fa5c3a938776' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--<parameter name='label' value='757c8a7c-d40b-46fd-854b-81fbe2f9acbe' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />-->
+    <!--</source>-->
+    <!--</description>-->
+    <!--</content>-->
+    <!--</jingle>-->
+    <!--</iq>-->
+
+
+    <!--<x xmlns='http://igniterealtime.org/protocol/ofmeet'>-->
+    <!--<user-agent xmlns='http://jitsi.org/jitmeet/user-agent'>Mozilla/5.0 (Windows NT 6.1; WOW64)-->
+    <!--AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36-->
+    <!--</user-agent>-->
+    <!--<userId>293c59a092b0897ebf0a36d7321d66f1</userId>-->
+    <!--<configRole>CRUO</configRole>-->
+    <!--<nick xmlns='http://jabber.org/protocol/nick'>cao</nick>-->
+    <!--<audiomuted xmlns='http://jitsi.org/jitmeet/audio'>null</audiomuted>-->
+    <!--<videomuted xmlns='http://jitsi.org/jitmeet/video'>null</videomuted>-->
+    <!--<stats xmlns='http://jitsi.org/jitmeet/stats'>-->
+    <!--<stat name='bitrate_download' value='684' />-->
+    <!--<stat name='bitrate_upload' value='1021' />-->
+    <!--<stat name='packetLoss_total' value='0' />-->
+    <!--<stat name='packetLoss_download' value='0' />-->
+    <!--<stat name='packetLoss_upload' value='0' />-->
+    <!--</stats>-->
+    <!--<media xmlns='http://estos.de/ns/mjs'>-->
+    <!--<source direction='sendrecv' ssrc='3420730460' type='audio' />-->
+    <!--<source direction='sendrecv' ssrc='1368134922' type='video' />-->
+    <!--<source direction='sendrecv' ssrc='3576269968' type='video' />-->
+    <!--</media>-->
+    <!--</x>-->
+
+
+    <!--04-21 12:46:21.604 15218-16004/com.clouds.video I/PCRTCClient: linpeng,,onAddStream:stream.label() mixedmslabel,id=mixedlabelvideo0,size=1-->
+    <!--04-21 12:46:21.810 15218-16004/com.clouds.video I/PCRTCClient: linpeng,,onAddStream:stream.label() f1ec21dc-c9c9-49c6-a5d1-1cbf66fbae8f,id=d7c797ce-f7b4-493a-90c5-974567c293ba,size=1-->
+
+
+<!--    <iq from="101100003@conference.192.168.3.240/focus" id="TahJ4-2233" to="f1b57f64df5cfdcd@192.168.3.240/android326" type="set">
+        <jingle action='source-add' sid='9ff2hq68abmm6' xmlns='urn:xmpp:jingle:1'>
+            <content name='data'>
+                <description media='data' xmlns='urn:xmpp:jingle:apps:rtp:1' />
+            </content>
+            <content name='audio'>
+                <description media='audio' xmlns='urn:xmpp:jingle:apps:rtp:1'>
+                    <source ssrc='2922342197' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>
+                        <parameter name='cname' value='/fJdw5W7sX26/0X1' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                        <parameter name='msid' value='b44f61bf-c08b-4df2-a8de-e625d4185460 c6cd120d-5fab-4edd-8e37-0603ef1d8de1' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                        <parameter name='mslabel' value='b44f61bf-c08b-4df2-a8de-e625d4185460' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                        <parameter name='label' value='c6cd120d-5fab-4edd-8e37-0603ef1d8de1' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                    </source>
+                </description>
+            </content>
+            <content name='video'>
+                <description media='video' xmlns='urn:xmpp:jingle:apps:rtp:1'>
+                    <source ssrc='1924189369' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0'>
+                        <parameter name='cname' value='/fJdw5W7sX26/0X1' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                        <parameter name='msid' value='f1ec21dc-c9c9-49c6-a5d1-1cbf66fbae8f d7c797ce-f7b4-493a-90c5-974567c293ba' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                        <parameter name='mslabel' value='f1ec21dc-c9c9-49c6-a5d1-1cbf66fbae8f' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                        <parameter name='label' value='d7c797ce-f7b4-493a-90c5-974567c293ba' xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' />
+                    </source>
+                </description>
+            </content>
+        </jingle>
+    </iq>-->
+
+    <!--04-22 01:45:38.940 31207-32093/com.clouds.video I/System.out: key= meet1267 and value= com.cisco.core.entity.Participant@7a876c7-->
+    <!--04-22 01:45:38.940 31207-32093/com.clouds.video I/System.out: key2= 355015176 and value= video-->
+    <!--04-22 01:45:38.940 31207-32093/com.clouds.video I/System.out: key2= 4080856461 and value= audio-->
+    <!--04-22 01:45:38.940 31207-32093/com.clouds.video I/System.out: key= android262 and value= com.cisco.core.entity.Participant@bd564f4-->
+    <!--04-22 01:45:38.940 31207-32093/com.clouds.video I/System.out: key2= 2641879379 and value= audio-->
+    <!--04-22 01:45:38.940 31207-32093/com.clouds.video I/System.out: key2= 1582274626 and value= video-->
+
+
+    <!--04-22 01:46:39.399 31207-32093/com.clouds.video I/System.out: key= meet1267 and value= com.cisco.core.entity.Participant@7854692-->
+    <!--04-22 01:46:39.399 31207-32093/com.clouds.video I/System.out: key2= 4080856461 and value= audio-->
+    <!--04-22 01:46:39.399 31207-32093/com.clouds.video I/System.out: key2= 3171317870 and value= screen-->
+    <!--04-22 01:46:39.399 31207-32093/com.clouds.video I/System.out: key= android262 and value= com.cisco.core.entity.Participant@62bb863-->
+    <!--04-22 01:46:39.399 31207-32093/com.clouds.video I/System.out: key2= 2641879379 and value= audio-->
+    <!--04-22 01:46:39.399 31207-32093/com.clouds.video I/System.out: key2= 1582274626 and value= video-->
+<!--</resources>-->

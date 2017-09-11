@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/home_join_meeting_check" android:state_pressed="false" />
+    <item android:drawable="@mipmap/home_join_meeting" android:state_pressed="true"/>
+</selector>
+
+<!--
+android:state_pressed
+Boolean、“true”表示按下状态使用（例如按钮按下）、“false”表示非按下状态使用
+android:state_focused
+Boolean、“true”表示聚焦状态使用（例如使用滚动球/D-pad聚焦Button）；“false”表示非聚焦状态使用
+android:state_selected
+Boolean、“true”表示选中状态使用（例如Tab 打开）；“false” 表示非选中状态使用
+android:state_checkable
+Boolean、“true”表示可勾选状态时使用；“false”表示非可 勾选状态使用、（只对能切换可勾选—非可勾选的构件有用、）
+android:state_checked
+Boolean、“true”表示勾选状态使用；“false”表示非勾选状态使用
+android:state_enabled
+Boolean、“true”表示可用状态使用（能接收触摸/点击事件）、“false”表示不可用状态使用
+android:window_focused
+Boolean、“true”表示应用程序窗口有焦点时使用（应用程序在前台）、“false”表示无焦点时使用（例如Notification栏拉 下或对话框显示）
+
+
+
+-->

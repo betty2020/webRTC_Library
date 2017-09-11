@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/select_white"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_tou"
+        android:layout_width="@dimen/item_height"
+        android:layout_height="@dimen/item_height"
+        android:contentDescription="@string/app_name"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:src="@mipmap/user_default"
+        android:padding="6dp"
+        />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/item_name_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="齐浩"
+            android:textSize="@dimen/contact_item_name_font"
+            />
+
+        <TextView
+            android:id="@+id/item_email_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="乐清最大皮革厂制造商"
+            android:textSize="@dimen/contact_item_pinyin_font"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/add_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="添加"
+            android:textColor="#04c1aa"
+            />
+    </LinearLayout>
+
+</LinearLayout>

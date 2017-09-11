@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:orientation="vertical"
+    >
+
+    <include
+        layout="@layout/seach_layout"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        >
+
+        <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            >
+
+        </com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView>
+
+        <TextView
+            android:id="@+id/noResult"
+            style="@style/ContactItemHeader"
+            android:text="@string/contact_no_result"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/anno"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:alpha="0.4"
+            android:background="@drawable/bg_button_normal"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textSize="@dimen/contact_anno_font"
+            android:visibility="gone"
+            />
+
+        <com.xiaoqiang.online.customview.SideBar
+            android:id="@+id/sideBar"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="40dp"
+            />
+    </FrameLayout>
+</LinearLayout>

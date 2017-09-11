@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whiteE"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <FrameLayout
+            android:id="@+id/fragment_base"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </FrameLayout>
+
+        <include
+            android:id="@+id/head"
+            layout="@layout/activity_head"
+            />
+
+        <FrameLayout
+            android:id="@+id/fragment_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/head"
+            >
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp"
+        android:paddingTop="2dp"
+        >
+
+        <RadioButton
+            android:id="@+id/btn_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/main_home_selector"
+            android:gravity="center"
+            android:tag="radio_button0"
+            android:text="主页"
+            android:textColor="@color/main_botton_text_color"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_huiyijilu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_huiyijilu_selector"
+            android:gravity="center"
+            android:tag="radio_button1"
+            android:text="会议记录"
+            android:textColor="@color/main_botton_text_color"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_tongxunlu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_tongxunlu_selector"
+            android:gravity="center"
+            android:tag="radio_button2"
+            android:text="通讯录"
+            android:textColor="@color/main_botton_text_color"
+            android:textSize="10sp"
+            />
+    </RadioGroup>
+</LinearLayout>

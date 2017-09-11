@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rl_top"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+    >
+
+    <LinearLayout
+        android:id="@+id/below_up_group"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@mipmap/navigationbar_safe"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/mic_img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/mute"
+            tools:ignore="RtlHardcoded"
+            />
+
+        <ImageView
+            android:id="@+id/video_img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/video_chat"
+            />
+
+        <ImageView
+            android:id="@+id/sound_img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/speaker"
+            />
+
+        <ImageView
+            android:id="@+id/bottom_hangup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/video_hangup"
+            tools:ignore="RtlHardcoded"
+            android:padding="11dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/chats_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/chat"
+                tools:ignore="RtlHardcoded"
+                />
+
+            <TextView
+                android:id="@+id/unread_msg_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/unread_count_bg"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/share_img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/share"
+            />
+
+        <ImageView
+            android:id="@+id/sip_img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/sip"
+            />
+
+        <ImageView
+            android:id="@+id/hide_img"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hidemyself"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pull"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/below_up_group"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/video_pull"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/below_down_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/pull"
+        android:layout_marginTop="-1dp"
+        android:background="@mipmap/navigationbar_safe"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+    </LinearLayout>
+</RelativeLayout>

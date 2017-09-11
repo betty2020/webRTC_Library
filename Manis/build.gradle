@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    //签名文件 改为自己的路径
+    signingConfigs {
+        config {
+            keyAlias 'xiaoqiang'
+            keyPassword 'key2017'
+            storeFile file('E:/MyWorks/201794/androidApp2/docs/keystore.jks')
+            storePassword 'key2017'
+//            v2SigningEnabled false //是否采用APK Signature Scheme v2
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+    //useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.xiaoqiang.online"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 14
+        versionName "1.0.0"
+        jackOptions {
+            enabled true
+        }
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.config
+            // 是否进行混淆
+            minifyEnabled false
+            // 混淆文件的位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            // Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources false
+        }
+        debug {
+            signingConfig signingConfigs.config
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    // 编译libs目录下的所有jar包
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':My58library')
+    //noinspection GradleCompatible
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    //compile 'com.yanzhenjie:recyclerview-swipe:1.0.4'
+    compile 'com.timehop.stickyheadersrecyclerview:library:0.4.3'
+    //compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile('com.github.hotchemi:permissionsdispatcher:2.4.0') {
+        exclude module: "support-v13"
+    }
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.4.0'
+    compile project(':RecyclerviewSwipe')
+}

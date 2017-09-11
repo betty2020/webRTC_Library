@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--白色  标题 背景-->
+    <color name="colorBackground">#ffffff</color>
+    <!--蓝色  选中下划线 -->
+    <color name="colorLineChoosed">#33B5E5</color>
+    <!--半透明蓝色  选中下划线 阴影-->
+    <color name="colorLineChoosedShadow">#8833B5E5</color>
+    <!--灰色  未选中下划线 -->
+    <color name="colorLineDefault">#FFAAAAAA</color>
+
+    <!-- 通用部分 -->
+    <color name="head_top">#0C9BF0</color>
+    <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="white_pressed">#FFCFCFCF</color> <!-- 灰白色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+    <color name="no_color">#00000000</color> <!-- 透明色 -->
+    <color name="black_a">#666666</color>
+    <color name="font_hui">#AFAEBE</color> <!-- -灰色字体 -->
+
+    <color name="gray_line">#d9d9d9</color>
+    <color name="gray_line2">#808080</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="btn_pressed_blue_solid">#a7cfec</color>
+
+    <color name="login_rl">#abaaaa</color><!-- 登录框 -->
+    <color name="font_color">#646464</color><!-- 字体颜色 -->
+
+    <!--head_top -->
+    <color name="head_color">#FEFEFE</color><!-- 字体颜色 -->
+    <!--theme tab menu--><!--小强在线 标准色系 全局统一色系-->
+    <color name="tab_bottom_font1">#4DCCB5</color><!-- 字体颜色 -->
+    <color name="tab_bottom_font2">#565656</color><!-- 字体颜色 -->
+    <color name="tab_bottom_font3">#4d4d4d</color><!-- 字体颜色 -->
+    <color name="tab_bottom_font4">#878787</color><!-- 字体颜色 -->
+    <!--分割线-->
+    <color name="fengexian_main3">#E6E6E8</color>
+    <!--RecyclerView-->
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="green_normal">#37C000</color>
+    <color name="green_pressed">#30A070</color>
+    <color name="purple_normal">#9932CC</color>
+    <color name="purple_pressed">#9F79EE</color>
+    <!--试了几个小米的设备，背景色不指定的话，是eeeeee-->
+    <color name="whiteE">#eeeeee</color>
+    <color name="black4">#444444</color>
+
+</resources>

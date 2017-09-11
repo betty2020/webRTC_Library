@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">webRTC demo</string>
+
+    <!-- 登录按钮 -->
+    <string name="bt_login">登录</string>
+    <string name="bt_register">注册</string>
+    <string name="bt_guestlogin">加入会议</string>
+
+
+    <string name="main_join"> 参加会议</string>
+    <string name="main_jishi"> 即时会议</string>
+
+
+    <string name="login_emptyNameTip">用户名和密码不能为空</string>
+    <string name="login_emptyNameTip2">会议号和昵称不能为空</string>
+    <string name="login_emptyNameTip3">会议号不能为空</string>
+    <string name="login_noNetWork">请连接网络后再登录</string>
+
+
+    <!--     设置页面 -->
+    <string name="setting_video_1">设置视频质量</string>
+    <string name="setting_video_2">CIF</string>
+    <string name="setting_video_3">VGA</string>
+    <string name="setting_video_4">720p</string>
+    <string name="setting_video_5">取消</string>
+
+    <string name="setting_video_number1">设置接收视频数量</string>
+    <string name="setting_video_number2">1</string>
+    <string name="setting_video_number3">2</string>
+    <string name="setting_video_number4">3</string>
+    <string name="setting_video_number5">4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="save_meeting">保 存</string>
+    <string name="hit_text">请输入4~8位数字</string>
+    <!--联系人页面-->
+    <string name="contact_no_result">没有搜索到相应结果</string>
+    <string name="contact_edit_hint">请输入关键字</string>
+    <!--权限适配-->
+    <string name="permission_camera_rationale">应用需要得到相机权限才能显示相机预览。</string>
+    <string name="permission_write_settings_rationale">应用需要保存设置权限。</string>
+    <string name="permission_contacts_rationale">应用需要获得联系人权限才能演示对联系人数据库的访问。</string>
+    <string name="permission_storage_write">应用需要访问本地存储目录</string>
+    <string name="permission_camera_denied">请求相机权限被拒绝。 如果要访问相机，则必须授予该权限。</string>
+    <string name="permission_camera_never_askagain">请求相机权限被拒绝，并不再询问。</string>
+</resources>
