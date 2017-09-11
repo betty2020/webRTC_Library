@@ -6,10 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import org.jivesoftware.smack.packet.*;
-
-import java.util.*;
-
 /**
  * A utility class containing methods for creating {@link JingleIQ}
  * instances for various situations.

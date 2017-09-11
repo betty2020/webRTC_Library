@@ -6,15 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
-import net.java.sip.communicator.util.*;
-import org.jitsi.service.neomedia.*;
-import org.jitsi.util.*;
-import org.jivesoftware.smack.packet.*;
-
-import java.util.*;
-
 /**
  * Implements the Jitsi Videobridge <tt>conference</tt> IQ within the
  * COnferencing with LIghtweight BRIdging.

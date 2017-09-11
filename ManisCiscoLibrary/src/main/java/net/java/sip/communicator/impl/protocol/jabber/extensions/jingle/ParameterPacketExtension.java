@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Represents the <tt>parameter</tt> elements described in XEP-0167.
  *

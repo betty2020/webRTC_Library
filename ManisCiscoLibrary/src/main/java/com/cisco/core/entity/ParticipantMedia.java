@@ -1,7 +1,5 @@
 package com.cisco.core.entity;
 
-import com.cisco.core.meet.util.MediaSSRCMap;
-
 import org.webrtc.MediaStream;
 
 /**

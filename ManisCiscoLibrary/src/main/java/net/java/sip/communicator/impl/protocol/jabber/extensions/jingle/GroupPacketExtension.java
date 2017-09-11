@@ -6,10 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
-import java.util.*;
-
 /**
  * Jingle group packet extension(XEP-0338).
  *

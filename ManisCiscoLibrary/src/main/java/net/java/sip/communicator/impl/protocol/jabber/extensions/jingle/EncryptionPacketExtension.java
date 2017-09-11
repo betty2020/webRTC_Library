@@ -6,11 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import org.jivesoftware.smack.packet.*;
-
-import java.util.*;
-
 /**
  * The element transporting encryption information during jingle session
  * establishment.

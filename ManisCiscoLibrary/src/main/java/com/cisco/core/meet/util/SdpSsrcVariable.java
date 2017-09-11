@@ -1,10 +1,10 @@
 package com.cisco.core.meet.util;
 
+import org.webrtc.IceCandidate;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-
-import org.webrtc.IceCandidate;
 
 public class SdpSsrcVariable {
 

@@ -6,11 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.colibri.*;
-
-import java.util.*;
-
 /**
  * Represents <tt>ssrc-group</tt> elements described in XEP-0339.
  *

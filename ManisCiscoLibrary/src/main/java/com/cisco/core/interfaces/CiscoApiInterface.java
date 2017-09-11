@@ -1,21 +1,20 @@
 package com.cisco.core.interfaces;
 
-import org.webrtc.IceCandidate;
-import org.webrtc.MediaStream;
-import org.webrtc.PeerConnection;
-import org.webrtc.SessionDescription;
-import org.webrtc.StatsReport;
-import org.webrtc.RendererCommon.ScalingType;
-import org.webrtc.VideoRenderer;
-import org.webrtc.VideoTrack;
-
 import android.app.Application;
 
+import com.cisco.core.AppRTCClient.SignalingParameters;
 import com.cisco.core.entity.Participant;
 import com.yolanda.nohttp.Logger;
 import com.yolanda.nohttp.NoHttp;
-import com.cisco.core.AppRTCClient.SignalingParameters;
-import com.cisco.core.VideoImplement;
+
+import org.webrtc.IceCandidate;
+import org.webrtc.MediaStream;
+import org.webrtc.PeerConnection;
+import org.webrtc.RendererCommon.ScalingType;
+import org.webrtc.SessionDescription;
+import org.webrtc.StatsReport;
+import org.webrtc.VideoRenderer;
+import org.webrtc.VideoTrack;
 
 import java.util.List;
 

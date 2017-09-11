@@ -1,12 +1,24 @@
 package com.cisco.core.xmpp;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Timer;
-import java.util.TimerTask;
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.os.Build;
+import android.util.Log;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.cisco.core.MeetRTCClient;
+import com.cisco.core.VideoImplement;
+import com.cisco.core.entity.Participant;
+import com.cisco.core.interfaces.CiscoApiInterface;
+import com.cisco.core.meet.util.MediaSSRCMap;
+import com.cisco.core.meet.util.SdpSsrcVariable;
+import com.cisco.core.meet.util.SmackInit;
+import com.cisco.core.xmppextension.AppShareExtension;
+import com.cisco.core.xmppextension.CallMessageExtension;
+import com.cisco.core.xmppextension.MuteIQ;
+import com.cisco.core.xmppextension.XExtension;
+import com.cisco.nohttp.NetWorkUtil;
+
 import net.java.sip.communicator.impl.protocol.jabber.extensions.colibri.SourcePacketExtension;
 import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.ContentPacketExtension;
 import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.JingleIQ;
@@ -37,30 +49,14 @@ import org.jivesoftware.smackx.packet.Nick;
 import org.webrtc.IceCandidate;
 import org.webrtc.SessionDescription;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.os.Build;
-import android.util.Log;
-
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import com.cisco.core.MeetRTCClient;
-import com.cisco.core.PeerConnectionClient;
-import com.cisco.core.VideoImplement;
-import com.cisco.core.entity.Participant;
-import com.cisco.core.entity.ParticipantMedia;
-import com.cisco.core.interfaces.CiscoApiInterface;
-import com.cisco.core.meet.util.MediaSSRCMap;
-import com.cisco.core.meet.util.SdpSsrcVariable;
-import com.cisco.core.meet.util.SmackInit;
-import com.cisco.core.meet.*;
-import com.cisco.core.util.Lg;
-import com.cisco.core.util.Tools;
-import com.cisco.core.xmppextension.AppShareExtension;
-import com.cisco.core.xmppextension.CallMessageExtension;
-import com.cisco.core.xmppextension.MuteIQ;
-import com.cisco.core.xmppextension.XExtension;
-import com.cisco.nohttp.NetWorkUtil;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class XmppConnection implements PacketListener {
 	private String xmppDomain;

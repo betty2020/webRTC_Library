@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Implements <tt>AbstractPacketExtension</tt> for the <tt>fingerprint</tt>
  * element defined by XEP-0320: Use of DTLS-SRTP in Jingle Sessions.

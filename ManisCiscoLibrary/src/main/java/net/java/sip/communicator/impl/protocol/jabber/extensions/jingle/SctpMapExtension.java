@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import org.jivesoftware.smack.packet.*;
-
 /**
  * SctpMap extension in transport packet extension.
  * Defined by XEP-0343: Signaling WebRTC datachannels in Jingle.

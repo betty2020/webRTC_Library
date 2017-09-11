@@ -6,11 +6,7 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
 import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.ContentPacketExtension.*;
-import org.jivesoftware.smack.packet.*;
-
-import java.net.*;
 
 /**
  * RTP header extension.

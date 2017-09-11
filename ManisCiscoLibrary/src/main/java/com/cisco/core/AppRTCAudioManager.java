@@ -11,10 +11,6 @@
 package com.cisco.core;
 
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -25,7 +21,10 @@ import android.os.Build;
 import android.util.Log;
 
 import com.cisco.core.util.AppRTCUtils;
-import com.cisco.core.*;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * AppRTCAudioManager manages all audio related parts of the AppRTC demo.

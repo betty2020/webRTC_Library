@@ -6,15 +6,9 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
+import org.xmlpull.v1.XmlPullParser;
 
 //import org.jitsi.org.xmlpull.v1.*;
-import org.jitsi.service.neomedia.*;
-import org.jitsi.util.*;
-import org.jivesoftware.smack.packet.*;
-import org.jivesoftware.smack.provider.*;
-import org.xmlpull.v1.XmlPullParser;
 
 /**
  * Implements an <tt>org.jivesoftware.smack.provider.IQProvider</tt> for the

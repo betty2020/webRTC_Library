@@ -1,27 +1,12 @@
 package com.cisco.core.meet.util;
 
-import android.util.*;
-
 import com.cisco.core.xmppextension.AppShareExtension;
 import com.cisco.core.xmppextension.AppShareExtensionProvider;
 import com.cisco.core.xmppextension.CallMessageExtension;
 import com.cisco.core.xmppextension.CallMessageExtensionProvider;
 import com.cisco.core.xmppextension.MuteIQProvider;
-import com.cisco.core.xmppextension.X2Extension;
-import com.cisco.core.xmppextension.X2ExtensionProvider;
 import com.cisco.core.xmppextension.XExtension;
 import com.cisco.core.xmppextension.XExtensionProvider;
-
-import org.jivesoftware.smack.*;
-import org.jivesoftware.smack.provider.*;
-import org.jivesoftware.smackx.*;
-import org.jivesoftware.smackx.bytestreams.ibb.*;
-import org.jivesoftware.smackx.bytestreams.socks5.*;
-import org.jivesoftware.smackx.bytestreams.socks5.provider.*;
-import org.jivesoftware.smackx.muc.*;
-import org.jivesoftware.smackx.packet.*;
-import org.jivesoftware.smackx.provider.*;
-import org.jivesoftware.smackx.search.*;
 
 /**
  * @author Pawel Domas

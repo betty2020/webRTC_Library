@@ -2,9 +2,6 @@ package com.cisco.core.xmppextension;
 
 import org.jivesoftware.extension.AbstractPacketExtension;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by linpeng
  */

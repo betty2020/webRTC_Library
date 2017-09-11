@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * An implementation of the "zrtp-hash" attribute as described in the currently
  * deferred XEP-0262.

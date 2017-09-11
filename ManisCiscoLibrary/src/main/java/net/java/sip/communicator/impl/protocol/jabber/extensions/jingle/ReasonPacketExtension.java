@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import org.jivesoftware.smack.packet.*;
-
 /**
  * The <tt>reason</tt> element provides human or machine-readable information
  * explaining what prompted the <tt>action</tt> of the encapsulating

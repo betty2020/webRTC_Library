@@ -2,7 +2,6 @@ package com.cisco.core.xmpp;
 
 
 import com.cisco.core.interfaces.CiscoApiInterface;
-import com.cisco.core.meet.util.*;
 
 public class XmppXml {
 	public static  String StirngXml;

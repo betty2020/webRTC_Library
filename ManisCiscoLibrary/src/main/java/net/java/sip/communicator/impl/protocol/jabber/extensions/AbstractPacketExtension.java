@@ -6,11 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions;
 
-import org.jivesoftware.smack.packet.*;
-
-import java.net.*;
-import java.util.*;
-
 /**
  * A generic implementation of <tt>PacketExtension</tt>. The purpose of this
  * class is quite similar to that of smack's {@link org.jivesoftware.smack.packet.DefaultPacketExtension}

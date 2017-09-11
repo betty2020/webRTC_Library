@@ -6,12 +6,6 @@
  */
 package com.cisco.core.meet;
 
-import android.util.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.colibri.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
-
-import org.jitsi.util.*;
-import org.webrtc.*;
 import com.cisco.core.meet.util.MediaSSRCMap;
 
 

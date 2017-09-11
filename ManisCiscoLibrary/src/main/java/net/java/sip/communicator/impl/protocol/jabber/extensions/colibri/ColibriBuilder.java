@@ -6,15 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
-import net.java.sip.communicator.impl.protocol.jabber.jinglesdp.*;
-import net.java.sip.communicator.util.*;
-import org.jitsi.service.neomedia.*;
-import org.jitsi.util.*;
-import org.jivesoftware.smack.packet.*;
-
-import java.util.*;
-
 /**
  * Utility class for building Colibri queries. It can be used to allocate,
  * expire Colibri channels and update it's ICE transport info on the bridge.

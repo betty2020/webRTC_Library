@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.util;
 
-import java.util.logging.*;
-
 /**
  * Standard logging methods.
  *

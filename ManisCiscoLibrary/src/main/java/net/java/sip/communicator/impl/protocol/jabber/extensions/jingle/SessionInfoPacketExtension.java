@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Represents <tt>session-info</tt> elements such as active, ringing, or hold
  * for example.

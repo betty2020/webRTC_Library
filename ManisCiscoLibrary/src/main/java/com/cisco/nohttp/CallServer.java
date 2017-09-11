@@ -15,12 +15,12 @@
  */
 package com.cisco.nohttp;
 
+import android.content.Context;
+
 import com.yolanda.nohttp.NoHttp;
 import com.yolanda.nohttp.download.DownloadQueue;
 import com.yolanda.nohttp.rest.Request;
 import com.yolanda.nohttp.rest.RequestQueue;
-
-import android.content.Context;
 
 /**
  * Created in Oct 23, 2015 1:00:56 PM

@@ -10,11 +10,11 @@
 
 package com.cisco.core;
 
+import com.cisco.core.interfaces.CiscoApiInterface;
+
 import org.webrtc.IceCandidate;
 import org.webrtc.PeerConnection;
 import org.webrtc.SessionDescription;
-
-import com.cisco.core.interfaces.CiscoApiInterface;
 
 import java.util.List;
 

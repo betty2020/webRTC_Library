@@ -6,12 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import org.jivesoftware.smack.packet.*;
-
-import java.math.*;
-import java.security.*;
-import java.util.*;
-
 /**
  * A straightforward extension of the IQ. A <tt>JingleIQ</tt> object is created
  * by smack via the {@link JingleIQProvider}. It contains all the information

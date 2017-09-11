@@ -6,14 +6,9 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import android.util.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.colibri.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jitsimeet.*;
-
-import org.jivesoftware.smack.provider.*;
-//import org.jitsi.org.xmlpull.v1.*;
 import org.xmlpull.v1.XmlPullParser;
+
+//import org.jitsi.org.xmlpull.v1.*;
 
 /**
  * An implementation of a Jingle IQ provider that parses incoming Jingle IQs.

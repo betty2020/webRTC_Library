@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Implements <tt>AbstractPacketExtension</tt> for a "recording" element.
  *

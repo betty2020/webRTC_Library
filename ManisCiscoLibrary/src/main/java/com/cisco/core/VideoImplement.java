@@ -1,35 +1,28 @@
 package com.cisco.core;
 
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.webrtc.EglBase;
-import org.webrtc.IceCandidate;
-import org.webrtc.PeerConnection;
-import org.webrtc.PeerConnectionFactory;
-import org.webrtc.SessionDescription;
-import org.webrtc.StatsObserver;
-import org.webrtc.StatsReport;
-import org.webrtc.VideoRenderer;
-import org.webrtc.StatsReport.Value;
-import org.webrtc.SurfaceViewRenderer;
-
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.util.Log;
 
 import com.cisco.core.AppRTCClient.RoomConnectionParameters;
 import com.cisco.core.AppRTCClient.SignalingParameters;
 import com.cisco.core.PeerConnectionClient.PeerConnectionParameters;
 import com.cisco.core.interfaces.CiscoApiInterface;
-import com.cisco.core.interfaces.VideoInterface;
 import com.cisco.core.meet.util.SdpSsrcVariable;
-import com.cisco.core.xmpp.Key;
-import com.cisco.core.xmpp.ToastMessage;
 import com.cisco.core.xmpp.XmppConnection;
-import com.cisco.library.R;
+
+import org.webrtc.EglBase;
+import org.webrtc.IceCandidate;
+import org.webrtc.PeerConnection;
+import org.webrtc.SessionDescription;
+import org.webrtc.StatsObserver;
+import org.webrtc.StatsReport;
+import org.webrtc.StatsReport.Value;
+import org.webrtc.SurfaceViewRenderer;
+import org.webrtc.VideoRenderer;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 public class VideoImplement implements AppRTCClient.SignalingEvents,CiscoApiInterface.PeerConnectionEvents,CiscoApiInterface.videoOperationOrStatusEtc {
 

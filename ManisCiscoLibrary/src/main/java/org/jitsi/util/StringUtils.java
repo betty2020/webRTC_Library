@@ -6,9 +6,6 @@
  */
 package org.jitsi.util;
 
-import java.io.*;
-import java.nio.charset.*;
-
 /**
  * Implements utility functions to facilitate work with <tt>String</tt>s.
  *

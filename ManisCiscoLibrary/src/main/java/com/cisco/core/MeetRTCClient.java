@@ -1,20 +1,11 @@
 package com.cisco.core;
 
 import android.content.Context;
-import android.util.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.colibri.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
-
-import org.jivesoftware.smack.provider.*;
-import org.jivesoftware.smack.util.StringUtils;
-import org.webrtc.*;
-
-import java.util.*;
 
 import com.cisco.core.entity.ParticipantMedia;
 import com.cisco.core.interfaces.CiscoApiInterface;
-import com.cisco.core.meet.util.MediaSSRCMap;
 import com.cisco.core.meet.JingleToSdp;
+import com.cisco.core.meet.util.MediaSSRCMap;
 import com.cisco.core.xmpp.Key;
 import com.cisco.core.xmpp.XmppConnection;
 

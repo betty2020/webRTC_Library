@@ -6,11 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import org.jivesoftware.smack.packet.*;
-
-import java.util.*;
-
 /**
  * Represents the content <tt>description</tt> elements described in XEP-0167.
  *

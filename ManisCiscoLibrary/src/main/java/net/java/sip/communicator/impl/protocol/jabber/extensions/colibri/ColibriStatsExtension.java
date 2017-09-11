@@ -6,12 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import org.jivesoftware.smack.packet.*;
-import org.jivesoftware.smack.util.*;
-
-import java.util.*;
-
 /**
  * Implements the Jitsi Videobridge <tt>stats</tt> extension within COnferencing
  * with LIghtweight BRIdging that will provide various statistics.

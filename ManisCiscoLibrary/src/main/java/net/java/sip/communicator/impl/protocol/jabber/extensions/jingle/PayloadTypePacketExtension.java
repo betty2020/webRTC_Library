@@ -6,10 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
-import java.util.*;
-
 /**
  * Represents the <tt>payload-type</tt> elements described in XEP-0167.
  *

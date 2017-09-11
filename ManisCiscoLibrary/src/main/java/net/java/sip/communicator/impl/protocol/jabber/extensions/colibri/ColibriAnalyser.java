@@ -6,13 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
-import net.java.sip.communicator.impl.protocol.jabber.jinglesdp.*;
-import net.java.sip.communicator.util.*;
-import org.jitsi.service.neomedia.*;
-
-import java.util.*;
-
 /**
  * Utility class for extracting info from responses received from the JVB and
  * keeping track of conference state.

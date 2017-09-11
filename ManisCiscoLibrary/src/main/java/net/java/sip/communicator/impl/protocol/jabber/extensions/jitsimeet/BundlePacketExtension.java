@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jitsimeet;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Jitsi Meet specifics bundle packet extension.
  *

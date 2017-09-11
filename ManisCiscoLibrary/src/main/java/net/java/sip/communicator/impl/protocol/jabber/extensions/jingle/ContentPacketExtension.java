@@ -6,9 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
-
 /**
  * The Jingle "content" element contains the entire description of the session
  * being initiated. Among other things it contains details such as transport,

@@ -6,8 +6,6 @@
  */
 package org.jitsi.service.neomedia;
 
-import java.net.*;
-
 /**
  * The <tt>MediaStreamTarget</tt> contains a pair of host:port couples
  * indicating data (RTP) and control (RTCP) locations.

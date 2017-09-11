@@ -6,11 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
-
-import java.util.*;
-
 /**
  * Implements <tt>AbstractPacketExtension</tt> for the <tt>source</tt> element
  * defined by <a href="http://hancke.name/jabber/jingle-sources">

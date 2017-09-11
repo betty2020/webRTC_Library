@@ -6,13 +6,6 @@
  */
 package com.cisco.core.meet.util;
 
-import android.util.Log;
-
-import net.java.sip.communicator.impl.protocol.jabber.extensions.colibri.*;
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
-
-import java.util.*;
-
 /**
  * The map of media <tt>SourcePacketExtension</tt> encapsulates various
  * manipulation and access operations.

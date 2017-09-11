@@ -10,18 +10,18 @@
 
 package com.cisco.core;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.EnumSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.os.Environment;
+import android.os.ParcelFileDescriptor;
+import android.util.Log;
+
+import com.cisco.core.AppRTCClient.SignalingParameters;
+import com.cisco.core.interfaces.CiscoApiInterface;
+import com.cisco.core.interfaces.CiscoApiInterface.PeerConnectionEvents;
+import com.cisco.core.interfaces.CiscoApiInterface.videoOperationOrStatusEtc;
+import com.cisco.core.meet.util.SdpSsrcVariable;
+import com.cisco.core.xmpp.Key;
 
 import org.webrtc.AudioSource;
 import org.webrtc.AudioTrack;
@@ -51,18 +51,17 @@ import org.webrtc.VideoTrack;
 import org.webrtc.voiceengine.WebRtcAudioManager;
 import org.webrtc.voiceengine.WebRtcAudioUtils;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.os.Environment;
-import android.os.ParcelFileDescriptor;
-import android.util.Log;
-
-import com.cisco.core.AppRTCClient.SignalingParameters;
-import com.cisco.core.interfaces.CiscoApiInterface;
-import com.cisco.core.interfaces.CiscoApiInterface.PeerConnectionEvents;
-import com.cisco.core.interfaces.CiscoApiInterface.videoOperationOrStatusEtc;
-import com.cisco.core.meet.util.SdpSsrcVariable;
-import com.cisco.core.xmpp.Key;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Peer connection client implementation.

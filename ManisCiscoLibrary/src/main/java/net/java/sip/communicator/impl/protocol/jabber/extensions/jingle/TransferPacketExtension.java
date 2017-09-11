@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Implements <tt>AbstractPacketExtension</tt> for the "transfer" element
  * defined by XEP-0251: Jingle Session Transfer.

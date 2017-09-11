@@ -10,8 +10,6 @@
 
 package com.cisco.core;
 
-import org.webrtc.ThreadUtils;
-
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -21,6 +19,8 @@ import android.os.Build;
 import android.util.Log;
 
 import com.cisco.core.util.AppRTCUtils;
+
+import org.webrtc.ThreadUtils;
 
 
 /**

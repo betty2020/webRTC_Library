@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import org.jivesoftware.smack.packet.*;
-
 /**
  * The IQ used to trigger the graceful shutdown mode of the videobridge which
  * receives the stanza(given that source JID is authorized to start it).

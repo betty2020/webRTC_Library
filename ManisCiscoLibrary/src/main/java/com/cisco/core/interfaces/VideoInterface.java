@@ -1,15 +1,5 @@
 package com.cisco.core.interfaces;
 
-import java.util.List;
-import java.util.Random;
-
-import org.jivesoftware.smack.XMPPException;
-import org.webrtc.EglBase;
-import org.webrtc.MediaStream;
-import org.webrtc.RendererCommon.ScalingType;
-import org.webrtc.SurfaceViewRenderer;
-import org.webrtc.VideoRenderer;
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
@@ -39,6 +29,15 @@ import com.yolanda.nohttp.NoHttp;
 import com.yolanda.nohttp.RequestMethod;
 import com.yolanda.nohttp.rest.Request;
 import com.yolanda.nohttp.rest.Response;
+
+import org.jivesoftware.smack.XMPPException;
+import org.webrtc.EglBase;
+import org.webrtc.RendererCommon.ScalingType;
+import org.webrtc.SurfaceViewRenderer;
+import org.webrtc.VideoRenderer;
+
+import java.util.List;
+import java.util.Random;
 
 /**
  * 

@@ -6,10 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import java.net.URI;
-
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * An 'ssrc' extension.
  * @author jilinpeng

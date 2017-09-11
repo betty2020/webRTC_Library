@@ -1,11 +1,6 @@
 package com.cisco.core.meet;
 
-import java.net.URI;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import com.cisco.core.meet.util.SdpSsrcVariable;
 
 import net.java.sip.communicator.impl.protocol.jabber.extensions.colibri.SourcePacketExtension;
 import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.BundlePacketExtension;
@@ -30,7 +25,12 @@ import org.jivesoftware.smack.packet.IQ;
 import org.webrtc.IceCandidate;
 import org.webrtc.SessionDescription;
 
-import com.cisco.core.meet.util.SdpSsrcVariable;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 
 /**

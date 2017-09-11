@@ -7,7 +7,6 @@
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
 //import org.jitsi.org.xmlpull.v1.*;
-import org.jivesoftware.smack.provider.*;
 import org.xmlpull.v1.XmlPullParser;
 
 /**

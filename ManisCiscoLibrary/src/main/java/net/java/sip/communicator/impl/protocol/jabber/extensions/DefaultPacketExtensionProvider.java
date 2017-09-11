@@ -7,11 +7,7 @@
 package net.java.sip.communicator.impl.protocol.jabber.extensions;
 
 //import org.jitsi.org.xmlpull.v1.*;
-import org.jivesoftware.smack.packet.*;
-import org.jivesoftware.smack.provider.*;
 import org.xmlpull.v1.XmlPullParser;
-
-import java.util.logging.*;
 
 /**
  * A provider that parses incoming packet extensions into instances of the

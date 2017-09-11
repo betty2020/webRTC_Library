@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Represents the content <tt>inputevt</tt> element that may be find in
  * <tt>content</tt> part of a Jingle media negociation.

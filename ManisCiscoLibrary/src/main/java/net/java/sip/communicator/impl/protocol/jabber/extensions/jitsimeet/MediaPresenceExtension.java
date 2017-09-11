@@ -6,9 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jitsimeet;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-import org.jivesoftware.smack.provider.*;
-
 /**
  * Packet extension used by Jitsi Meet to advertise local media SSRCs in MUC
  * presence.

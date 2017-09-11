@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.jingle;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.*;
-
 /**
  * Packet extension that holds RTCP feedback types of the
  * {@link PayloadTypePacketExtension}. Defined in XEP-0293.

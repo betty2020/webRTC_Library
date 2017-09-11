@@ -6,8 +6,6 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.extensions.colibri;
 
-import org.jivesoftware.smack.packet.*;
-
 /**
  * The stats IQ that can be used to request Colibri stats on demand
  * (used in server side focus).

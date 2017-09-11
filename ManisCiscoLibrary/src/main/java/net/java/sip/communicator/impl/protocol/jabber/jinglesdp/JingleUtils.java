@@ -6,16 +6,10 @@
  */
 package net.java.sip.communicator.impl.protocol.jabber.jinglesdp;
 
-import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.*;
 import net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.ContentPacketExtension.*;
-//import net.java.sip.communicator.service.protocol.media.*;
-import net.java.sip.communicator.util.*;
-import org.jitsi.service.neomedia.*;
-//import org.jitsi.service.neomedia.format.*;
-import org.jitsi.util.*;
 
-import java.net.*;
-import java.util.*;
+//import net.java.sip.communicator.service.protocol.media.*;
+//import org.jitsi.service.neomedia.format.*;
 
 /**
  * The class contains a number of utility methods that are meant to facilitate
