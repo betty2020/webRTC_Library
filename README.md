@@ -7,6 +7,10 @@
 |Manis|更新 | 版本 |
 |------------|-----------|--------|
 | 小强在线 | Markdown| 1.0.0 |
+![image](https://github.com/yugu88/webRTC_Library/blob/master/loading1.png)
+![image](https://github.com/yugu88/webRTC_Library/blob/master/loading2.png)
+![image](https://github.com/yugu88/webRTC_Library/blob/master/loading3.png)
+![image](https://github.com/yugu88/webRTC_Library/blob/master/loading4.png)
 
 #### Log日志控制
 * MyAppAplication 
