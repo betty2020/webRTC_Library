@@ -4,9 +4,7 @@
 
 * 已经适配了思科所有会议终端，大麦盒子，共享汽车，及ATM机和各种支持VP9硬解码的开发主板
 
-|Manis|更新 | 版本 |
-|------------|-----------|--------|
-| 小强在线 | Markdown| 1.0.0 |
+| 小强在线 | Markdown|
 | ![image](https://github.com/yugu88/webRTC_Library/blob/master/loading1.png) | ![image](https://github.com/yugu88/webRTC_Library/blob/master/loading2.png) |
 | ![image](https://github.com/yugu88/webRTC_Library/blob/master/loading3.png) | ![image](https://github.com/yugu88/webRTC_Library/blob/master/loading4.png) |
 
