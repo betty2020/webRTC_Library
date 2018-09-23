@@ -1,6 +1,6 @@
 ### 初次提交 2017/4/28
 
-账号：test。密码1qaz@WSX
+账号：test01。密码1qaz@WSX
 
 ***包名： com.webrtc.manis***
 
