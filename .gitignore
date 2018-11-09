@@ -20,5 +20,4 @@ proguard/
 *.log
 #local.properties
 *.iml
-/build.gradle
-/settings.gradle
+

@@ -3,13 +3,13 @@ apply plugin: 'com.android.application'
 android {
     //签名文件 改为自己的路径
     signingConfigs {
-        config {
-            keyAlias 'xiaoqiang'
-            keyPassword 'key2017'
-            storeFile file('E:/MyWorks/201794/androidApp2/docs/keystore.jks')
-            storePassword 'key2017'
-//            v2SigningEnabled false //是否采用APK Signature Scheme v2
-        }
+//        config {
+//            keyAlias 'xiaoqiang'
+//            keyPassword 'key2017'
+//            storeFile file('../docs/keystore.jks')
+//            storePassword 'key2017'
+////            v2SigningEnabled false //是否采用APK Signature Scheme v2
+//        }
     }
     compileSdkVersion 25
     buildToolsVersion '25.0.3'
@@ -20,14 +20,14 @@ android {
         targetSdkVersion 25
         versionCode 14
         versionName "1.0.0"
-        jackOptions {
-            enabled true
-        }
-        signingConfig signingConfigs.config
+//        jackOptions {
+//            enabled true
+//        }
+//        signingConfig signingConfigs.config
     }
     buildTypes {
         release {
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
             // 是否进行混淆
             minifyEnabled false
             // 混淆文件的位置
@@ -40,7 +40,7 @@ android {
             shrinkResources false
         }
         debug {
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
             // 显示Log
             buildConfigField "boolean", "LOG_DEBUG", "true"
             versionNameSuffix "-debug"
@@ -56,21 +56,24 @@ android {
     productFlavors {
     }
 }
+// 强制所有的第三方包使用指定版本的support包：
+configurations.all {
+    resolutionStrategy {
+        force 'com.android.support:design:25.4.0'
+        force 'com.android.support:support-v4:25.4.0'
+    }
+}
 
 dependencies {
     // 编译libs目录下的所有jar包
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':My58library')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':My58library')
     //noinspection GradleCompatible
-    compile 'com.android.support:support-v4:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    //compile 'com.yanzhenjie:recyclerview-swipe:1.0.4'
-    compile 'com.timehop.stickyheadersrecyclerview:library:0.4.3'
-    //compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile('com.github.hotchemi:permissionsdispatcher:2.4.0') {
-        exclude module: "support-v13"
-    }
-    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.4.0'
-    compile project(':RecyclerviewSwipe')
+    implementation 'com.android.support:support-v4:25.4.0'
+    implementation 'com.android.support:design:25.4.0'
+    implementation 'com.yanzhenjie:recyclerview-swipe:1.0.4'
+    implementation 'com.timehop.stickyheadersrecyclerview:library:0.4.3'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.github.hotchemi:permissionsdispatcher:4.0.0'
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:4.0.0"
 }

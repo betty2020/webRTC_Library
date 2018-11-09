@@ -1,0 +1,4 @@
+include ':ManisXmpplibrary'
+include ':Manis'
+include ':My58library'
+include ':WebRtc58Library'
