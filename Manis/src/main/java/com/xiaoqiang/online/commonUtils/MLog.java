@@ -131,7 +131,7 @@ public class MLog {
         if (msg != null) {
             stringBuilder.append(msg);
         }
-        String tag = "webRTC";
+        String tag = "xiaoqiang";
         String logStr = stringBuilder.toString();
         switch (type) {
             case V:

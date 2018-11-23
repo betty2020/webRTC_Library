@@ -1,4 +1,3 @@
-include ':ManisXmpplibrary'
-include ':Manis'
-include ':My58library'
-include ':WebRtc58Library'
+include ':My58library', ':WebRtc58Library', ':RecyclerviewSwipe'
+include ':Manis',":ManisXmpplibrary"
+

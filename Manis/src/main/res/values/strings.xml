@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">webRTC demo</string>
+    <string name="app_name">小强在线</string>
 
     <!-- 登录按钮 -->
     <string name="bt_login">登录</string>

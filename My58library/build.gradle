@@ -1,12 +1,13 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.3'
-    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
+    // useLibrary 'org.apache.http.legacy'
+
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 25
+        targetSdkVersion 27
 //        multiDexEnabled true   重复包使用
     }
     buildTypes {
@@ -15,10 +16,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    productFlavors {
-    }
 }
 dependencies {
+//    testCompile 'junit:junit:4.12'
     implementation project(':ManisXmpplibrary')
     implementation project(':WebRtc58Library')
     implementation files('libs/fastjson-1.2.2.jar')

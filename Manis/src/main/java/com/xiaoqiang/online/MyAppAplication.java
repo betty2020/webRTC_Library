@@ -79,7 +79,7 @@ public class MyAppAplication extends android.app.Application {
         MLog.init(true);// Log日志控制
         NoHttp.initialize(this); // NoHttp默认初始化。
         Logger.setDebug(true); // 开启NoHttp调试模式。
-        Logger.setTag("webRTC_NoHttp"); // 设置NoHttp打印Log的TAG。
+        Logger.setTag("xiaoqiang_NoHttp"); // 设置NoHttp打印Log的TAG。
 
     }
 
